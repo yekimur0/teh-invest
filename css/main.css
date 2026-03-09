@@ -2923,8 +2923,8 @@ html.with-fancybox body.hide-scrollbar {
 }
 .menu-modal__close {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: 20px;
+  right: 20px;
   background: none;
   border: none;
   cursor: pointer;
@@ -3146,4 +3146,5 @@ html.with-fancybox body.hide-scrollbar {
 }
 
 /*# sourceMappingURL=main.css.map */
+
 
