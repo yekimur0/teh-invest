@@ -2981,9 +2981,6 @@ html.with-fancybox body.hide-scrollbar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
   gap: 15px;
 }
 .menu-modal__social .social-link {
@@ -3004,6 +3001,9 @@ html.with-fancybox body.hide-scrollbar {
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
   transition: transform 0.3s, -webkit-transform 0.3s;
+  max-width: 220px;
+  width: 100%;
+  justify-content: center;
 }
 .menu-modal__social .social-link:hover {
   -webkit-transform: translateY(-3px);
@@ -3146,5 +3146,6 @@ html.with-fancybox body.hide-scrollbar {
 }
 
 /*# sourceMappingURL=main.css.map */
+
 
 
